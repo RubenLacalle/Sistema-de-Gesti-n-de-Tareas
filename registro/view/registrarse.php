@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio Sesión</title>
+    <title>Registro Usuario</title>
     <link rel="stylesheet" href="../..//public/css/formularios.css">
 </head>
 <body>
@@ -16,13 +16,14 @@
             <label>Contraseña:</label>
             <input type="password" name="password" id="inputPassword">
         </div>
-        <input type="submit" value="Registrarte">
+        <input type="submit" value="Registrarte" id="enviarDatos">
 
         <div id="otrasOpciones">
             <a href="./inicioSesion.php">Iniciar sesión</a>
         </div>
     </form>
 
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="../../public/js/validacionDatos.js"></script>
 </body>
 </html>
