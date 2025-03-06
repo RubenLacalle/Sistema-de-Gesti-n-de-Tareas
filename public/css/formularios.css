@@ -15,7 +15,30 @@ form div{
     justify-content: center; 
     align-items: center;
 }
-input[type="submit"]{
+.avisoError{
+    margin-top: 5px;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: rgb(187, 90, 90);
+    font-size: .6em;
+    padding: 5px;
+}
+.avisoError ul{
+    margin: 0;
+}
+.falloInicioSesion p{
+    flex-direction: column;
+    text-align:center;
+    align-items: center;
+}
+.falloInicioSesion input{
+    max-width: 100%;
+    margin: auto;
+    width: 150px;
+    background-color: #28a745;
+    border-radius: 4px;
+}
+input[type="button"]{
     max-width: 100%;
     margin: auto;
     width: 150px;

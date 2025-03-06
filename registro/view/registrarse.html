@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Usuario</title>
+    <link rel="stylesheet" href="../..//public/css/formularios.css">
+</head>
+<body>
+    <form action="../controller/controlAccesoAplicacion.php" method="post" id="formDatosUser">
+        <div id="usuario">
+            <label>Usuario:</label>
+            <input type="text" name="user" id="inputUser">
+        </div>
+        <div id="passw">
+            <label>Contraseña:</label>
+            <input type="password" name="password" id="inputPassword">
+        </div>
+        <input type="button" value="Registrarte" id="enviarDatos">
+        <input type="text" name="tratamientoDatos" value="Registrarte" style="display: none;">
+
+        <div id="otrasOpciones">
+            <a href="./inicioSesion.html">Iniciar sesión</a>
+        </div>
+    </form>
+
+    <script src="../../public/js/validacionDatos.js"></script>
+</body>
+</html>

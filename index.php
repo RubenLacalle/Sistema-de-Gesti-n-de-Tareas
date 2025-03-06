@@ -1,3 +1,3 @@
 <?php
 
-header("location: ./registro/view/inicioSesion.php");
+header("location: ./registro/view/inicioSesion.html");
