@@ -53,4 +53,19 @@ class Usuarios extends Conexion
             return "Excepcion capturada: " . $e->getMessage();
         }
     }
+    public function consultarId($nUsuario){
+        try {
+            $query = "SELECT Id FROM usuarios WHERE Nombre = :nombre";
+
+            $resultado = $this->db_conexion->prepare(($query));
+            $resultado->bindValue(':nombre', $nUsuario, PDO::PARAM_STR);
+            $resultado->execute();
+
+            $idUsuario = $resultado->fetchColumn();
+
+            return $idUsuario;
+        } catch (Exception $e) {
+            return "Excepcion capturada: ".$e->getMessage();
+        }
+    }
 }
