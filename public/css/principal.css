@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+}
+
+
+.box {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#nuevaTarea {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#nuevaTarea table {
+    width: 100%;
+}
+
+#nuevaTarea td {
+    padding: 10px;
+}
+
+#nuevaTarea input[type="text"],
+#nuevaTarea textarea,
+#nuevaTarea input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#tareas {
+    margin-top: 30px;
+}
+
+#tablaTareas {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#tablaTareas th,
+#tablaTareas td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: px solid #ddd;
+}
+
+#tablaTareas th {
+    background-color: #28a745;
+    color: white;
+}
+
+#tablaTareas tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+#tablaTareas tr:hover {
+    background-color: #f7f7f7;
+}
+
+.tdBotones {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.botonVerde{
+    max-width: 100%;
+    margin: auto;
+    width: 150px;
+    background-color: #28a745;
+    border-radius: 4px;
+}
+
+.botonAmarillo{
+    max-width: 100%;
+    margin: auto;
+    width: 150px;
+    background-color: #e6b800;
+    border-radius: 4px;
+}
+.botonRojo{
+    max-width: 100%;
+    margin: auto;
+    width: 150px;
+    background-color: #c00;
+    border-radius: 4px;
+}
